@@ -32,7 +32,7 @@ function App() {
  useEffect(() => {
   if (username) {
     const provider = new SocketIOProvider(
-      "http://localhost:3000",
+      "/",
       "monaco",
       ydoc,
       {
